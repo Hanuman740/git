@@ -21,5 +21,7 @@ public class HomePage {
 		wait.until(ExpectedConditions.visibilityOf(avatar));
 		return avatar.isDisplayed();
 	}
-	
+	public void Home() {
+		System.out.println("Pune");
+	}
 }
